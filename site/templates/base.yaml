@@ -1,0 +1,28 @@
+langs:
+  - en
+  - es
+en:
+    en: English
+    es: Español
+    htmltitle: Tell-and-Show
+    title: Tell-and-Show <font size="-20%">(under construction)</font>
+    get_reco: Get Recommendations! <font size="-20%">(coming soon)</font>
+    submit_content: Submit Links <font size="-20%">(coming soon)</font>
+    lead: Community Content-sharing Without Idols Nor Masters
+    get_involved: Get Involved
+    learn_more: Learn More
+    made_by: Copyright (C) 2022 <a href="http://duboue.net">Pablo Duboue</a>. <a href="about_$LANG$.html">Full credits.</a>
+    volunteer: Volunteer
+es:
+    en: English
+    es: Español
+    title: Tell-and-Show (en construcción)
+    get_reco: ¡Le recomendamos! (muy pronto)
+    submit_content: Comparta hipervínculos (muy pronto)
+    lead: Compartir Contendido en Comunidad sin Ídolos ni Patrones
+    get_involved: Contribuya
+    learn_more: Informarse
+    made_by: Copyright (C) 2022 <a href="http://duboue.net">Pablo Duboue</a>. <a href="about_$LANG$.html">Créditos completos.</a>
+    volunteer: Contribuya
+  
+

@@ -1,0 +1,23 @@
+en:
+  tands_roadmap1: '<p>Tell-and-Show is still not ready to provide recommendations. Why? We need <a href="volunteer_$LANG$.html">example preferences</a> to <a href="learn_$LANG$.html">train</a> the preference metric.</p> <p>With a trained metric, users can build their preference profiles (off-line and privately) and get recommendations ranked in their browsers.</a>'
+  roadmap: Roadmap Details
+  training: Training
+  training1: '<p>Volunteers contribute example preferences</p>'
+  training2: '<p>Machine Learning trains a preference metric</p>'
+  preference_metric: Preference Metric
+  production: Production
+  production1: '<p>Users build (offline) preference profile over the preference metric.<p>'
+  production2: '<p>Preference profile is used to obtain recommendations <b>in the browser</b>.</p>'
+  closing: '<p>Preference profile is not shared with servers.</p>'
+es:
+  tands_roadmap1: '<p>Tell-and-Show todavía no está listo para proveer recomendaciones. ¿Por qué? Nos hacen falta <a href="volunteer_$LANG$.html">preferencias de ejemplo</a> para <a href="learn_$LANG$.html">entrenar</a> la métrica de preferencias.</p> <p>Una vez hayamos entrenado la métrica, Ud. podrá construir su perfil de preferencia (off-line y de manera privada) y obtener recomendaciones ranekadas en su navegador.</a>'
+  roadmap: Detalles
+  training: Entrenamiento
+  training1: '<p>Gente voluntaria contribuye preferencias de ejemplo</p>'
+  training2: '<p>Aprendizaje automático entrena la métrica de preferencias</p>'
+  preference_metric: Métrica de Preferencias
+  production: Producción
+  production1: '<p>La gente puede armar sus propios perfiles de preferencias (offline) usando la métrica de preferencias.<p>'
+  production2: '<p>La métrica de preferencias se usa para obtener recomendaciones  <b>en el navegador</b>.</p>'
+  closing: '<p>La métrica de preferencias no se comparte con los servidores.</p>'  
+  

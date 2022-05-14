@@ -1,0 +1,23 @@
+en:
+  tands_volunteer1: '<p><i>Le seul moyen d''affronter un monde sans liberté est de devenir si absolument libre qu''on fasse de sa propre existence un acte de révolte.</i></p><p>Albert Camus</p>'
+  volunteer: Volunteer!
+  volunteer_lead: '<p>There are multiple ways to contribute to Tell-and-Show:</p>'
+  volunteer1: '<p>The most substantive way is to annotate preferences (that is, look at Wikipedia descriptions of artifacts and state whether you will be interested in seeing the artifact). This project needs tons of such data. Your contributions are protected by the <a href="LICENSE">AGPLv3 License</a>.</p>'
+  volunteer1_button: Annotate
+  volunteer2: '<p>If you speak a different language, you might want to translate this website (more details coming soon).</p>'
+  volunteer3: '<p>If you can program JavaScript, you can help build the <a href="roadmap_$LANG$.html">production</a> system (the developer communication channels are being set up).</p>'
+  volunteer4: '<p>If you are an AI researcher or a Data Scientist, you can experiment with better ways to generate recommendations once we have <a href="download_$LANG$.html">annotated the data</a>.</p>'
+  volunteer5: '<p>If you want to help offset the hardware costs of running the project, you can <a href="https://ko-fi.com/M4M87P13P">donate through Ko-Fi</a>.</p>'
+es:
+  tands_volunteer1: '<p><i>Le seul moyen d''affronter un monde sans liberté est de devenir si absolument libre qu''on fasse de sa propre existence un acte de révolte.</i></p><p>Albert Camus</p>'
+  volunteer: ¡Contribuya!
+  volunteer_lead: '<p>Hay muchas formas en las que puede contribuir a Tell-and-Show:</p>'
+  volunteer1: '<p>La forma más directa es compartir sus preferencias (lo cual implica ver descripciones de ítems de Wikipedia y decir si le interesaría ver el ítem en sí). Este proyecto necesita muchísimos datos de este tipo. Sus contribuciones están protegidas por la <a href="LICENSE">licencia AGPLv3</a>.</p>'
+  volunteer1_button: Comparta sus preferencias
+  volunteer2: '<p>Si habla otros idiomas, Ud. puede ayudar a traducir este sitio (agregaremos pronto más información al respecto).</p>'
+  volunteer3: '<p>Si puede programar en JavaScript, Ud. puede ayudar a construir el sistema <a href="roadmap_$LANG$.html">en producción</a> (los canales de comunicación de desarrollo están siendo puestos en marcha).</p>'
+  volunteer4: '<p>Si hace investigación en IA o trabaja en Ciencia de Datos, Ud. puede experimentar mejores formas de generar recomendaciones una vez tengamos suficientes <a href="download_$LANG$.html">datos anotados</a>.</p>'
+  volunteer5: '<p>Si quiere hacer una contribución módica a los gastos de hardware del proyecto, puede <a href="https://ko-fi.com/M4M87P13P">donar a través de Ko-Fi</a>.</p>'
+
+  
+

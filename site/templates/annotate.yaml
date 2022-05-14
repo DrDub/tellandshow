@@ -1,0 +1,36 @@
+en:
+  tands_annotate1: '<p><i>Somos nuestra memoria, somos ese quimérico museo de formas inconstantes, ese montón de espejos rotos.</i></p><p>Jorge Luis Borges</p>'
+  annotate: Annotation Instructions
+  annotate_lead: '<p>In the following pages, you will see text descriptions of Wikimedia Commons artifacts (the media used to illustrate Wikipedia articles). You will be shown an item description. An item can be an image, a video, a book, amnog many things. Based just on the item description please assess:</p>'
+  'yes': 'Yes'
+  'no': 'No'
+  dont_understand: 'Do Not Understand'
+  instruction1: If you would be interested in seeing the item (image, video, text, etc.), press
+  instruction2: 'If you are 100% certain that you would <b>not</b> be interested in seeing the item, press'
+  instruction3: If you <b>do not understand</b> the text description (it uses terms you are not familiar with or it is mainly written in a foreign language you cannot read), press
+  instruction4_1: If you are unsure between
+  instruction4_2: and
+  instruction4_3: Think about a winter afternoon, you are bored and have nothing else to do. Would you take a look? Press
+  instruction4_4: otherwise press
+  closing: '<p>Please note, the items you will see depend on how you annotated the previous items. This annotation process takes significant server resources. An annotation run involves 10 pages of 10 items each and should take about 30 minutes to complete. Do no start the annotation unless you intend to finish a full run. The nickname used to submit data is there to avoid showing you the same data over and over for people who submit multiple runs. If you do not mind annotating the same data twice, you can use a random nickname each time.</p> <p>Do not worry about mistakes; your data is aggregated across multiple people and <a href="learn_$LANG$.html">used to train a preference metric</a>.</p>'
+  agree: By submitting your preferences you agree to release them under the AGPLv3 licence.
+  alert: Please accept releasing your annotation under AGPLv3 to continue.
+  start: Start Annotating
+es:
+  tands_annotate1: '<p><i>Somos nuestra memoria, somos ese quimérico museo de formas inconstantes, ese montón de espejos rotos.</i></p><p>Jorge Luis Borges</p>'
+  annotate: Instrucciones de anotación
+  annotate_lead: '<p>En las próximas páginas, verá descripciones en texto de ítems en Wikimedia Commons (el multimedio utilizado para ilustrar artículos en Wikipedia). Se le mostrará entonces una descripción del ítem, que puede ser una imagen, un video, un libro y muchas otras cosas. Basándose solamente en la descripción textual del ítem, por favor tenga a bien decidir:</p>'
+  'yes': 'Si'
+  'no': 'No'
+  dont_understand: 'No Comprendo'
+  instruction1: Si le interesaría ver el ítem (imagen, video, texto, etc.), oprima
+  instruction2: 'Si tiene una seguridad del 100% que <b>no</b> le interesaría ver el ítem, oprima'
+  instruction3: Si Ud. <b>no comprende</b> el texto descriptivo (utiliza términos que desconoce o está escrito principalmente en una lengua extranjera que no maneja), oprima
+  instruction4_1: Si tiene indecisión entre
+  instruction4_2: y
+  instruction4_3: Piense en una aburrida tarde de invierno, sin nada para hacer. ¿Miraría el ítem? Oprima
+  instruction4_4: caso contrario, oprima
+  closing: '<p>Tenga en cuenta que los ítems que verá dependen de como haya anotado los ítems anteriores. Este proceso de anotación utiliza muchos recursos en el servidor. Un proceso de anotación son unas 10 páginas de 10 ítems cada una y demora alrededor de 30 minutos en concretarse. Por favor no empiece a anotar a menos que espera poder terminar todo el proceso completo. El apodo que utiliza para enviar los datos está allí para evitar mostrarle datos repetidos. Si no lo preocupa ver los mismos datos varias veces, puede usar un apodo al azar cada vez.</p> <p>No se preocupe por errores, los datos serán agrupados con los de otras personas y <a href="learn_$LANG$.html">usados para entrenar una métrica de preferencias</a>.</p>'
+  agree: Al enviarnos sus preferences está de acuerdo en distribuirlas bajo la licencia AGPLv3.
+  alert: Por favor acepte la licencia de distribución de sus datos bajo AGPLv3 para continuar.
+  start: Comience a Anotar

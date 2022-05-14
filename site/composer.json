@@ -1,0 +1,16 @@
+{
+    "name": "drdub/tellandshow",
+    "description": "Community Content-sharing Without Idols Nor Masters",
+    "type": "project",
+    "require": {
+        "rubix/ml": "^2.0"
+    },
+    "license": "AGPLv3",
+    "authors": [
+        {
+            "name": "Pablo Duboue",
+            "email": "pablo.duboue@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}

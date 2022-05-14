@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="<$= $lang ?>">
+  <head>
+    <meta charset="utf-8">
+    <title><?= $_['htmltitle'] ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <body>
+
+    <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="container">
+        <a href="index_<?= $lang ?>.html" class="navbar-brand"><?= $_['title'] ?></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="roadmap_<?= $lang ?>.html"><?= $_['get_reco'] ?></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="volunteer_<?= $lang ?>.html"><?= $_['volunteer'] ?></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="learn_<?= $lang ?>.html"><?= $_['learn_more'] ?></a>
+            </li>
+            <li class="nav-item">
+<?php
+                     foreach($_['langs'] as $other_lang) {
+                         if($other_lang != $lang) {
+?>
+                             <a class="nav-link" href="<?= $pagen ?>_<?= $other_lang ?>.html"><?= $_[$other_lang] ?></a>
+<?php
+                         }
+                     }
+?>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">

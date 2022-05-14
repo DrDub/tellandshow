@@ -1,0 +1,8 @@
+en:
+    tands_descr: <p>Tell-and-Show is an <b>experiment in community-owned machine learning.</b> The project builds recommendation profiles for you that belong to you. It provides also tools and models that other Free Software projects can use to make the recommendation profiles of further use to you.</p>  <p>At its core, this project is a political statement. <b>We believe recommendation systems belong to its users</b> not the owners of the trained models or servers where they live.</p>
+    how_to_help:  <p>You can help this project by <a href="roadmap_$LANG$.html">sharing your individual preferences over key items</a> (anonymously if you so prefer). <b>The resulting models and data are protected by the Affero GNU Public License version 3.</b> (At a later time, we will also accept item descriptions and links to unique content.)</p>
+es:
+    tands_descr: <p>Tell-and-Show es un <b>experimento en aprendizaje automático de propiedad colectiva.</b> El proyecto construye perfiles de recomendación para Ud. que le pertenecen sólo a Ud. Provee también herramientas y modelos que otros proyectos de Software Libre pueden usar para hacer que estos perfiles de recomendación le sean aún más útiles.</p>  <p>En esencia, este proyecto es una manifestación política. <b>Los sistemas de recomendación le pertenecen a las personas</b> no a los dueños de los modelos entrenados o los servidores donde se alojan.</p>
+    how_to_help:  <p>Ud. puede ayudar al proyecto <a href="roadmap_$LANG$.html">compartiendo sus preferencias sobre ítems específicos</a> (de manera anónima). <b>Los modelos y los datos están protegidos por la licencia Affero GNU Public License version 3.</b> (Más adelante, aceptaremos también descripciones de ítems y URLs para nuevo contenido.)</p>
+
+

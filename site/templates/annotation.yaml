@@ -1,0 +1,34 @@
+en:
+  nickname: Nickname
+  change: Change
+  instructions: 'Press to review the instructions'
+  annotate: Annotate
+  'yes': 'Yes'
+  'no': 'No'
+  dont_understand: 'Do Not Understand'
+  nick: 'Nicknames are composed of only letters, numbers and underscores (no spaces). Minimum length 4 characters, truncated at 30.'
+  invalid_nick: 'Nickname invalid, only letters, numbers and underscores (no spaces). Minimum length 4 characters, truncated at 30.'
+  got_runs: 'Number of annotations runs associated with this nickname:'
+  continuing: 'Continuing an existing annotation run for this nickname (if this was not you, please change the nickname)'
+  db_error: 'DB writing error, please resubmit'
+  finished: 'All done! If you want to start a new annotion run, press the button below'
+  start: 'Start another'
+  repeated: 'You might now see repeated items'
+  repeated_error: 'Something went wrong, we might repeat items'
+es:
+  nickname: Apodo
+  change: Cambiar
+  instructions: 'Rever las instrucciones de anotación'
+  annotate: Annotar
+  'yes': 'Si'
+  'no': 'No'
+  dont_understand: 'No Comprendo'
+  nick: 'Los apodos están compuestos sólo de letras, números y guión bajos (todo sin spaces). Mínimo 4 caracteres, se truncan en 30.'
+  invalid_nick: 'Apodo inválido, se aceptan sólo de letras, números y guión bajos (todo sin spaces). Mínimo 4 caracteres, se truncan en 30.'
+  got_runs: 'Número de grupos de anotaciones asociados con este apodo:'
+  continuing: 'Continuando un proceso de anotación existente para este apodo (si no es suyo, por favor cambie de apodo)'
+  db_error: 'Error al escribir en la base de datos, por favor re-envíe'
+  finished: '¡Todo listo! Si quiere empezar otro proceso de anotación oprima el siguiente botón'
+  start: 'Empezar otro'
+  repeated: 'Puede ahora encontrar ítems repetidos'
+  repeated_error: 'Ha habido un problema, podríamos repetir ítems de ahora en más'
