@@ -20,8 +20,8 @@ fetch:
 	mkdir ./data/annotated; rsync -av --progress tands@tellandshow.org:/home/tands/site/data/db/production.db ./data/annotated/
 
 export:
-	php code/export.php
+	@php code/export.php
 
 deploy:
 	rsync -av --progress data/run11-tree.ser data/colors.lst data/db.php tands@tellandshow.org:/home/tands/site/data/
-	rsync -av --delete composer.json composer.lock Makefile code static templates tands@tellandshow.org:/home/tands/site/
+	rsync -av --delete data/production.db composer.json composer.lock Makefile code static templates tands@tellandshow.org:/home/tands/site/

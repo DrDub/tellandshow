@@ -1,14 +1,14 @@
 en:
   tands_download1: '<p><i>We shouldn''t be looking for heroes, we should be looking for good ideas.</i></p><p>Noam Chomsky</p>'
   download: Download
-  download_blob: '<p>The main deliverable of this project is the annotated date, released under AGPLv3</p><p><a class="btn btn-primary" href="tellandshow_runs20220503.tsv">tellandshow_runs20220503.tsv</a></p><p><pre>id URL nickname run preference</pre></p>'
+  download_blob: '<p>The main deliverable of this project is the annotated date, released under AGPLv3</p>'
   other_data: Other Data
   other: 'Full DB via torrent (10Gb), includes embedding and clusters, coming soon (<a href="about_$LANG$.html">contact the project if you want to help with its release)</a>.'
   need: '<p>If you need specific data dumps, <a href="about_$LANG$.html">contact the project</a>.</p>'
   source_code: Source Code  
 es:
   download: Descargar
-  download_blob: '<p>El principal resultado de este proyecto son los datos anotados, distribuidos bajo la AGPLv3</p><p><a class="btn btn-primary" href="tellandshow_runs20220503.tsv">tellandshow_runs20220503.tsv</a></p><p><pre>id URL nickname run preference</pre></p>'
+  download_blob: '<p>El principal resultado de este proyecto son los datos anotados, distribuidos bajo la AGPLv3</p>'
   other_data: Otros Datos
   other: 'Base de datos completa via torrent (10Gb), incluye embedding y clusters (actualmente siendo preparado, <a href="about_$LANG$.html">contáctenos</a> si quiere ayudar a su lanzamiento).'
   need: '<p>Si necesita otros paquetes de datos específicos, <a href="about_$LANG$.html">contáctenos</a>.</p>'

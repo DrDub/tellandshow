@@ -70,17 +70,38 @@ if($finished) {
           </div>
           <div class="col-lg-4 col-md-5 col-sm-6">
               <p><?= $_['nick'] ?></p>            
+          </div>
         </div>
-      </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-md-8 col-sm-12">
+            <div class="progress" style="height: 20px;">
+              <div class="progress-bar bg-success" role="progressbar" style="width: <?= $progress ?>%;" aria-valuenow="<?= $progress ?>" aria-valuemin="0" aria-valuemax="100"><?= $progress ?>%</div>
+             </div>
+          </div>
+        </div>
     
         <div class="row">
-          <div class="col-lg-12 col-md-8 col-sm-5">
+          <div class="col-lg-12 col-md-8 col-sm-12">
+             <p><a href="#instructions" onclick="document.getElementById('instr').style.display = 'block';" class="btn btn-secondary"><?= $_['instructions'] ?></a></p> 
+             <iframe id="instr" style="display: none;" src="annotate_<?= $lang ?>.html" witdh="100%" height="400"></iframe>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-lg-12 col-md-8 col-sm-12">
               <form method="POST">
               <input type="hidden" name="nick" value="<?= $nick ?>">
               <ul>
 <?php
-    foreach($toannotate as $item => $text) {
-        echo "<li><p>$text</p>\n<p>";
+    foreach($toannotate as $item => $textOrPair) {
+        if(is_array($textOrPair)){
+            [ $text, $title ] = $textOrPair;
+            echo "<li><p><b>$title</b><br>$text</p>\n<p>";
+        }else{
+            $text = $textOrPair;
+            echo "<li><p>$text</p>\n<p>";
+        }
         foreach([ [ 'yes', 'btn-success' ], [ 'no', 'btn-primary' ], [ 'dont_understand', 'btn-secondary' ] ] as $row) {
             [ $label, $style ] = $row;
             echo "<input type=\"radio\" id=\"item_".$item."_$label\" name=\"item_$item\" value=\"$label\"/>";
@@ -98,10 +119,6 @@ if($finished) {
                 <p> &nbsp; </p>                
                 <p> &nbsp; </p>                
                 <p> &nbsp; </p>
-<p><a href="#instructions" onclick="document.getElementById('instr').style.display = 'block';" class="btn btn-primary"><?= $_['instructions'] ?></a></p>
-
-<iframe id="instr" style="display: none;" src="annotate_<?= $lang ?>.html" witdh="100%" height="400"></iframe>
-</a>                                                                       
         </div>
 <?php
 }

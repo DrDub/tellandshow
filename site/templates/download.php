@@ -26,6 +26,8 @@ include_once("header.tmpl");
         <div class="row">
           <div class="col-lg-4 col-md-5 col-sm-6">
                     <?= $_['download_blob'] ?>
+                    <p><a class="btn btn-primary" href="tellandshow_runs20220521.tsv">tellandshow_runs20220521.tsv</a></p>
+                    <p><pre>id URL nickname run preference</pre></p>
           </div>
         </div>
       </div>
@@ -57,8 +59,8 @@ include_once("header.tmpl");
         <div class="row">
           <div class="col-lg-4 col-md-5 col-sm-6">
              <ul>
-                  <li><p><a href="roadmap_<?= $lang ?>.html">Gitlab</a></p></li>
-                  <li><p><a href="roadmap_<?= $lang ?>.html">Github Mirror</a></p></li>
+                  <li><p><a href="https://gitlab.com/DrDub/tellandshow">Gitlab</a></p></li>
+                  <li><p><a href="https://github.com/DrDub/tellandshow">Github Mirror</a></p></li>
              </ul>
           </div>
         </div>

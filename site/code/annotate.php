@@ -149,8 +149,9 @@ END
     $other_cluster  = $tree->itemdata[$other_item][0];
 
     $toannotate = [];
+    $progress = 0;
     $stmt = $db->prepare(<<<'END'
-SELECT descriptions.item, descriptions.description FROM embeddings_laser LEFT JOIN
+SELECT descriptions.item, descriptions.description, urls.url FROM embeddings_laser LEFT JOIN
    descriptions
 ON descriptions.item = embeddings_laser.item
 LEFT JOIN 
@@ -159,6 +160,9 @@ ON cluster_labels.item = embeddings_laser.item
 LEFT JOIN
    langs
 ON descriptions.lang = langs.lid
+LEFT JOIN
+   urls
+ON descriptions.item = urls.item
 WHERE
    (cluster_labels.cluster = ? OR cluster_labels.cluster = ?) AND
    langs.code = ? AND
@@ -179,7 +183,8 @@ END
 
     while($arr = $result->fetchArray(SQLITE3_NUM)) {
         if(! isset($oldannotated[$arr[0]])) { // might be the case an element is missing in a cluster
-            $toannotate[ $arr[0] ] = $arr[1];
+            $url = str_replace("https://commons.wikimedia.org/wiki/", "", $arr[2]);
+            $toannotate[ $arr[0] ] = [ $arr[1], $url ];
         }
     }
 
@@ -425,7 +430,7 @@ END
                 $cluster = $tree->itemdata[$selected][0];
                 //echo "cluster: $cluster <br>";
                 $stmt = $db->prepare(<<<'END'
-SELECT descriptions.item, descriptions.description FROM embeddings_laser LEFT JOIN
+SELECT descriptions.item, descriptions.description, urls.url FROM embeddings_laser LEFT JOIN
    descriptions
 ON descriptions.item = embeddings_laser.item
 LEFT JOIN 
@@ -434,6 +439,9 @@ ON cluster_labels.item = embeddings_laser.item
 LEFT JOIN
    langs
 ON descriptions.lang = langs.lid
+LEFT JOIN
+   urls
+ON descriptions.item = urls.item
 WHERE
    cluster_labels.cluster = ? AND
    langs.code = ? AND
@@ -455,7 +463,8 @@ END
                     while($arr = $result->fetchArray(SQLITE3_NUM)) {
                         if(! isset($run['annotated'][$arr[0]]) &&
                            ! isset($run['oldannotated'][$arr[0]])) { // might be the case an element is missing in a cluster
-                            $run['toannotate'][$arr[0]] = $arr[1];
+                            $url = str_replace("https://commons.wikimedia.org/wiki/", "", $arr[2]);
+                            $run['toannotate'][$arr[0]] = [ $arr[1], $url ];
                             $count++;
                         }
                     }
@@ -470,5 +479,6 @@ END
         }
     }
     $toannotate = $run['toannotate'];
+    $progress = count($run['annotated']);
 }
 
